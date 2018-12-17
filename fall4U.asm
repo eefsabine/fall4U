@@ -36,13 +36,13 @@ TITLE ASM1 (GAME EXE)
 
 
 
- INSTRUCT  DB 'INSTRUCTIONS',0ah,0dh
+ INSTRUCT  DB 0ah,0dh 'INSTRUCTIONS',0ah,0dh
         DB '------------------------------------------------------------------------------',0ah,0dh
-        DB "This game is desgined only for those who knows how to love and doesn't want to",0ah,0dh
-        DB 'get broken. The mechanics are simple. Use left and right arrow keys to catch and',0ah,0dh
-        DB 'receive the love you deserve and avoid getting hurt in the process. Catch all ',0ah,0dh
-        DB 'love (H) you can get to earn your place in the Love List. The game will end once',0ah,0dh
-        DB ' you catch a broken heart (B). Give love and have fun!',0ah,0dh
+        DB "This game is desgined only for those who know how to love and doesn't want to" ,0ah,0dh
+        DB 'get broken. The mechanics are simple. Use left and right arrow keys to catch  ',0ah,0dh
+        DB 'and receive the love you deserve and avoid getting hurt in the process. Catch ',0ah,0dh
+        DB 'all love (♥) you can get to earn your place in the LoveList. The game will end',0ah,0dh
+        DB 'once you catch a broken heart (B). Give love and have fun!',0ah,0dh
         DB ' ',0ah,0dh
         DB 'Press ESC to return to menu... ',0ah,0dh,'$'
 
